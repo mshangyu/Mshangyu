@@ -1,0 +1,18 @@
+//父类，超类，基类
+class Person{
+	String name;
+	int age;
+}
+
+//子类
+class Student extends Person{
+	void study{
+		System.out.println("学习");
+	}
+}
+//子类
+ class Teacher extends Person{
+	void teach{
+		System.out.println("教书");
+	}
+ }
